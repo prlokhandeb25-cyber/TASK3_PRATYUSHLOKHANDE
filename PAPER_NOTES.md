@@ -30,12 +30,16 @@ Comparison target: Base model (27.3 BLEU)
    Final Val loss :
    BLEU score :
 
-## Reason for Gap : ~170x less data, half model capacity, fraction of training steps
-
-## Proof of real learning: correctly produces German sentence structure and common vocabulary (e.g. "ein mann mit einem hut" for "a man with a hat")
+## Reason for Gap :
+~170x less data, half model capacity, fraction of training steps
+---
+## Proof of real learning:
+Correctly produces German sentence structure and common vocabulary (e.g. "ein mann mit einem hut" for "a man with a hat")
 ---
 
 ## References:
 https://arxiv.org/html/1706.03762v7#S3
+
 https://www.youtube.com/watch?v=avjX3QrYkls
+
 https://www.youtube.com/watch?v=XwYY0lCGWW8
