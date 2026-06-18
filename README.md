@@ -95,5 +95,5 @@ python src/evaluate.py
 
 ## Conclusion : 
 
-The Attention is all you Need paper revolutionalized the way LLMs used to learn. The Transformer along with its ENcoder , Decoder other parts like tokenizer,embedding and encoding  and the 'ATTENTION' and 'MLP' layer helped us really transform (pun intended) the way AI learned and really put us substantially ahead in AI research. 
+The Attention is all you Need paper revolutionalized the way LLMs used to learn. The Transformer along with Encoder - Decoder structur and other parts like tokenizer,embedding and encoding and most importantly the 'ATTENTION' and 'MLP' layer helped us really transform (pun intended) the way AI learned and really put us substantially ahead in AI research. 
 
