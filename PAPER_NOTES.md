@@ -1,6 +1,8 @@
 Central Claim : 
 
-The paper written by published by Google Brain, revolves around the idea that instead of the traditional RNN(Recurrent Neural Networks) and LSTMs ( Long Short Term Memory Networks) which used sequential data handling , we can use a 'Transformer' which only requires 'ATTENTION' which is a function which maps a query and a set of key value pairs to an output . Here the query,key,value,and output all are vectors . The use of a transformer helps models to process data more efficiently and supports parallelism . Main problems with RNN,LSTMs was sequential processing which made training slow and it struggled with long term dependecies i.e. as it reached end of long sequence earlier information was lost . Transformer solved both of these , its a smartly designed neural network , it adds a special layer called ATTENTION and Mlp which allows tokens in a sequence interact with each other. Transformer allows dynamic communication with sequence elements .
+Every AI system is built on the same underlying model architechture,'Transformer' .The paper 'Attention is all you Need', revolves around the idea that instead of the traditional RNN(Recurrent Neural Networks) and LSTMs ( Long Short Term Memory Networks) which used sequential data handling , we can use a 'Transformer' which only requires 'ATTENTION' which is a function which maps a query and a set of key value pairs to an output . Here the query,key,value,and output all are vectors . The use of a transformer helps models to process data more efficiently and supports parallelism . Main problems with RNN,LSTMs was sequential processing which made training slow and it struggled with long term dependecies i.e. as it reached end of long sequence earlier information was lost . Transformer solved both of these , its a smartly designed neural network , it adds a special layer called ATTENTION and Mlp which allows tokens in a sequence interact with each other. Transformer allows dynamic communication with sequence elements .An analogy works best here: imagine you're baking a cake for the first time with a 15-step recipe. In the early days of LLMs, the model would read through all 15 steps every time it needed to verify just one step—an obviously inefficient process. But after this paper, LLMs could focus on one step at a time while maintaining awareness of the surrounding steps as context. This made processing much faster and improved comprehension, since the model could concentrate on the current instruction without losing sight of what came before and what was coming next.
+
+
 
 Core Architecture:
 
@@ -52,5 +54,7 @@ Correctly produces German sentence structure and common vocabulary (e.g. "ein ma
 https://arxiv.org/html/1706.03762v7#S3
 
 https://www.youtube.com/watch?v=avjX3QrYkls
+
+https://www.youtube.com/watch?v=JZLZQVmfGn8
 
 https://www.youtube.com/watch?v=XwYY0lCGWW8
