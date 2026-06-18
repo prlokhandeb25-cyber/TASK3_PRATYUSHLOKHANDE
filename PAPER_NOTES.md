@@ -21,10 +21,15 @@ The previous SOTA(State of the Art) models were ConvS2S and RNN , Transformer be
  My Implementation :
  
 Comparison target: Base model (27.3 BLEU)
+
 *Compute constraints:
+
 1.Hardware: CPU laptop (no GPU)
+
 2.Dataset: Multi30k EN-DE (~29k sentences) instead of WMT 2014 (4.5M sentences)
+
 3.Model size: d_model=256, N=3 layers instead of paper's d_model=512, N=6
+
 4.Training: 10 and 20 epochs instead of 100k steps
 
 Results:
