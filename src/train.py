@@ -115,7 +115,7 @@ def train():
     criterion = nn.CrossEntropyLoss(ignore_index=0, label_smoothing=0.1)
 
     
-    EPOCHS = 20
+    EPOCHS = 10
     best_val_loss = float("inf")
 
     for epoch in range(EPOCHS):
@@ -164,7 +164,6 @@ def train():
         avg_val_loss = val_loss / len(valid_loader)
         print(f"\nEpoch {epoch+1} DONE | Train Loss: {avg_train_loss:.4f} | Val Loss: {avg_val_loss:.4f}\n")
 
-        # Save best model
         if avg_val_loss < best_val_loss:
             best_val_loss = avg_val_loss
             torch.save({
