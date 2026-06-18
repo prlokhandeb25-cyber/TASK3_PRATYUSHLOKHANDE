@@ -31,7 +31,7 @@ The Transformer follows an encoder-decoder structure:
 | dropout | 0.1 | 0.1 |
 | dataset | WMT14 EN-DE (4.5M) | Multi30k EN-DE (29k) |
 | hardware | 8x NVIDIA P100 | CPU laptop |
-| training steps | 100,000 | 10 and 20 epochs |
+| training steps | 100,000 | 10 epochs |
 
 ---
 
@@ -47,7 +47,7 @@ The Transformer follows an encoder-decoder structure:
 The architecture is a faithful implementation of the paper. The BLEU gap is entirely due to:
 - **170x less training data** (29k vs 4.5M sentences)
 - **Half the model capacity** (d_model=256, N=3 vs 512, N=6)
-- **Fraction of training steps** (20 epochs vs 100k steps)
+- **Fraction of training steps** (10 epochs vs 100k steps)
 - **No GPU** — CPU training limits feasible compute
 
 ### Sample translations (10 epoch checkpoint)
