@@ -6,7 +6,7 @@ Every AI system is built on the same underlying model architechture,'Transformer
 
 Core Architecture:
 
-Transformer consists of a Encoder and decoder both contains two key blocks 1. Attention layer and a 2. Multilayer perceptron (feed forward neural network) . Attention layer is where tokens interact, Mlp is where token refines its representation (privately).The decoder has 3 sub-layers self-attention, cross-attention over encoder output, FFN. That cross-attention is architecturally critical .This helps Transformer for contextual understanding. Also as there is no recurrence and no convolution in our model , in order for the model to make use of the order of the sequence we add positional encodings to the input embeddings at the bottoms of the encoder and decoder stacks.
+Transformer consists of a Encoder and decoder both contains two key blocks 1. Attention layer and a 2. Multilayer perceptron (feed forward neural network) . Attention layer is where tokens interact, Mlp is where token refines its representation (privately).The model used Multi Heades self attention in which the model learns multiple sets of attetion weights in parallel .The decoder has 3 sub-layers self-attention, cross-attention over encoder output, FFN. That cross-attention is architecturally critical .This helps Transformer for contextual understanding. Also as there is no recurrence and no convolution in the model , in order for the model to make use of the order of the sequence we add positional encodings to the input embeddings at the bottoms of the encoder and decoder stacks.
 
 Dataset,Metric,Baseline  : 
 
