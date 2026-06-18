@@ -30,9 +30,7 @@ def greedy_decode(model, src, max_len, src_vocab, tgt_vocab, device):
         output = model.output_layer(decoder_output)
 
 
-        logits = output[0, -1, :]
-        logits[1] = -1e9 
-        next_token = logits.argmax().item()
+        next_token = output[0, -1, :].argmax().item()
         tgt_ids.append(next_token)
 
         if next_token == 3: 
