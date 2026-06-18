@@ -40,7 +40,7 @@ The Transformer follows an encoder-decoder structure:
 | Metric | Value |
 |---|---|
 | Final Validation Loss | 4.14 |
-| BLEU Score | 0.42 for 10 epochs and  for 20 epochs |
+| BLEU Score | 0.42 for 10 epochs |
 | Paper Base Model BLEU | 27.3 |
 
 ### Why the gap exists

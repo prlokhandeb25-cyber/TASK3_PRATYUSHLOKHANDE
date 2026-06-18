@@ -30,7 +30,7 @@ Comparison target: Base model (27.3 BLEU)
 
 3.Model size: d_model=256, N=3 layers instead of paper's d_model=512, N=6
 
-4.Training: 10 and 20 epochs instead of 100k steps
+4.Training: 10 epochs instead of 100k steps
 
 Results:
 10 epochs :
