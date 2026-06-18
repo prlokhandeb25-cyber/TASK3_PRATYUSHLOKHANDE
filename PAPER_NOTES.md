@@ -33,18 +33,11 @@ Comparison target: Base model (27.3 BLEU)
 4.Training: 10 and 20 epochs instead of 100k steps
 
 Results:
-
-1. 10 epochs :
+10 epochs :
  
   Final Val loss:4.14
 
   BLEU score: 0.42
-
-2. 20 epochs :
- 
-   Final Val loss :
-   
-   BLEU score :
 
  Reason for Gap :
  
