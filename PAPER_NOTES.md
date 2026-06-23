@@ -51,6 +51,8 @@ Correctly produces German sentence structure and common vocabulary (e.g. "ein ma
  
 https://arxiv.org/html/1706.03762v7#S3
 
+https://www.youtube.com/watch?v=vkhPtpUiLd8
+
 https://www.youtube.com/watch?v=avjX3QrYkls
 
 https://www.youtube.com/watch?v=JZLZQVmfGn8
